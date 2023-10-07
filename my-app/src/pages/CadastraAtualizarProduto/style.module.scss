@@ -1,0 +1,57 @@
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    min-height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.formLabel{
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.pname {
+    width: 100%;
+    input {
+        width: 100%;
+    }
+}
+
+.input{
+    border-radius: 10px;
+    height: 30px;
+}
+
+.paddinLeft{
+    margin-left: 5px ;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.row.row2 > * {
+    flex-basis: 50%;
+
+    input {
+        width: 100%;
+    }
+}
+
+.row.min {
+    justify-content: start;
+}
+
+.row.min > * {
+    flex-basis: 20%;
+    input {
+        width: 100%;
+    }
+}
